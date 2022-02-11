@@ -1,0 +1,23 @@
+{
+  "name": "docker-web-app",
+  "version": "0.0.0",
+  "description": "test docker node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -L server.js"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "docker"
+  ],
+  "author": "sxs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
